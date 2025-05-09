@@ -3,7 +3,9 @@
 Deep learning has emerged as a powerful tool in scientific modeling, particularly for complex dynamical systems; however, accurately capturing age-structured population dynamics under policy-driven fertility changes remains a significant challenge due to the lack of effective integration between domain knowledge and long-term temporal dependencies. To address this issue, we propose two physics-informed deep learning frameworks—PINN and LSTM-PINN—that incorporate policy-aware fertility functions into a transport-reaction partial differential equation to simulate population evolution from 2024 to 2054. The standard PINN model enforces the governing equation and boundary conditions via collocation-based training, enabling accurate learning of underlying population dynamics and ensuring stable convergence. Building on this, the LSTM-PINN framework integrates sequential memory mechanisms to effectively capture long-range dependencies in the age-time domain, achieving robust training performance across multiple loss components. Simulation results under three distinct fertility policy scenarios—the Three-child policy, the Universal two-child policy, and the Separate two-child policy—demonstrate the models’ ability to reflect policy-sensitive demographic shifts and highlight the effectiveness of integrating domain knowledge into data-driven forecasting. This study provides a novel and extensible framework for modeling age-structured population dynamics under policy interventions, offering valuable insights for data-informed demographic forecasting and long-term policy planning in the face of emerging population challenges.
 # Problem Setup
 See details in preprint: http://dx.doi.org/10.13140/RG.2.2.20232.12806
+
 https://doi.org/10.48550/arXiv.2505.01819
+
 DOI: 10.13140/RG.2.2.20232.12806
 # PINN method
 ## Structure diagram
